@@ -2,7 +2,10 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 50 px 200 px;
+    margin: 50px 200 px;
+    margin-left: 150px;
+    
+   
 }
 
 
@@ -20,6 +23,7 @@ font-family: "Open Sans", serif;
 
 font-weight: 800;
 font-size: 45px;
+margin-left: 150px;
 
 }
 nav ul{
@@ -30,6 +34,10 @@ nav ul{
 nav ul li{
     list-style: none;
     margin-right: 50px;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
 }
 .for-r{
 
@@ -49,18 +57,24 @@ color:#FD6E0A;
    border-radius: 5px;
 
 }
-nav ul li{
-    list-style: none;
-}
+
 nav li a{
-    text-decoration: none;
+    text-decoration: none; 
     font-size: 20 px;
+}
+
+.header 
+ {
+    background-image: url(/images/developer.png), url(images/header_bg.png); 
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
 }
 /* banner styles*/
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 230px;
+    margin: 0 35px 0 150px;
+    margin-right: 50px;
 }
 .banner-content{
     max-width:580 px ;
