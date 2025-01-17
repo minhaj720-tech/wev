@@ -1,9 +1,9 @@
 nav{
     display: flex;
-    align-items: center;
+    align-items: cente r;
     justify-content: space-between;
     margin: 50px 200 px;
-    margin-left: 150px;
+    margin-left: 10px;
     
    
 }
@@ -91,5 +91,93 @@ nav li a{
 .banner-profile-pic{
 
     width: 580 px;
+
+}
+.text-center{
+    text-align: center;
+}
+
+main{max-width: 1140px;
+    margin: 0 auto;
+
+
+
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130 px;
+}
+
+
+
+.section-tittle{
+    font-weight: bold;
+    color:#181818;
+    font-size: 35px;
+}
+.section-description{
+    
+    color:#757575;
+    font-size: 35px;
+}
+.secondary-bg {
+    background-color: #FFF8F3;
+
+
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+   
+} 
+.about-items{
+    display: flex;
+    justify-content: space-around;
+
+}
+.item-description{
+    font-weight: 600;
+
+
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+
+}
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+
+}
+
+.experience-sub-tittle{
+
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description, .experience-sub-tittle {color:#757575;
+
+}
+.resume hr{
+margin: 30px 5px;
+
+
+}
+.resume-container{
+ 
+
+        display:flex;
+        gap: 24px;
+    
+}
+.resume-download-cv{
+
+margin-top: 50px;
+
 
 }
